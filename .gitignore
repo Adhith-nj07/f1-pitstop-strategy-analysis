@@ -1,0 +1,17 @@
+# data is downloaded by scripts/download_data.py
+data/*.csv
+data/telemetry/
+data/telemetry_cache/
+cache/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+.vscode/
+*.b64
